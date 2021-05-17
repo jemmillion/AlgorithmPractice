@@ -44,3 +44,25 @@ print(a)
 #6017
 a = input()
 print(a, a, a)
+
+#6018
+a, b = input().split(':')
+print(a, b, sep=':')
+
+#6019
+y, m, d = input().split('.')
+print(d, m, y, sep="-")
+
+#6020
+a, b = input().split('-')
+print(a,b,sep='')
+
+#6021
+s = input()
+print(s[0])
+print(s[1])
+print(s[2])
+print(s[3])
+print(s[4])
+
+
