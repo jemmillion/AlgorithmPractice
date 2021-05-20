@@ -63,3 +63,12 @@ f1, f2= input().split(" ")
 m = float(f1) * float(f2)
 print(m)
 
+#6036(단어 여러 번 출력하기)
+w, n = input().split()
+print(w*int(n))
+
+#6037(문장 여러 번 출력하기)
+n = input()
+s = input()
+print(int(n)*s)
+
